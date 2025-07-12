@@ -18,7 +18,7 @@ jobs:
         run: |
           # Set the required variables
           repo_owner="NightFurySL2001"
-          repo_names=("LxgwWenKai", "LxgwWenKai-Lite")
+          repo_names=("LxgwWenKai" "LxgwWenKai-Lite")
           event_type="build"
 
           for repo_name in "${repo_names[@]}"; do
