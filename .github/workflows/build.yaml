@@ -1,4 +1,4 @@
-name: Build fnt
+name: Build font files
 # 远程遥控其他仓库构建字体
 # 需要 PAT 以触发工作流程，在 Settings > Secrets 中添加 MAIN_REPO_PAT
 # PAT 权限需要包含 write contents
@@ -32,5 +32,6 @@ jobs:
                 "event_type": "'"$event_type"'",
                 "client_payload": {
                   "commit_build_result": ${{ github.event.inputs.commit_build_result }}
+                }
               }'
           done

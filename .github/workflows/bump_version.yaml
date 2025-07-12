@@ -37,5 +37,6 @@ jobs:
                 "client_payload": {
                   "version": "${{ github.event.inputs.version }}",
                   "release_date": "${{ github.event.inputs.release_date }}"
+                }
               }'
           done
