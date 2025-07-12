@@ -5,10 +5,6 @@ name: Update submodule
 
 on:
   workflow_dispatch:
-    inputs:
-      commit_build_result:
-        description: '将构建结果提交到仓库'
-        type: boolean
 
 jobs:
   build:
